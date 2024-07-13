@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+ <div class="main">
+    <h1>Currency Converter</h1>
+   <form>
+        <div class="input">
+            <p>Enter Amount</p>
+            <input type="number" value="1">
+        </div>
+            <div class="container">
+             <div>
+              <div class="from-msg">
+                <p>From</p>
+              </div>
+            <div class="from-side">
+                <img src="https://flagsapi.com/US/flat/64.png">
+                <select name="from" id="from">
+                </select>
+            </div>
+             </div>
+            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+            <div>
+                <div class="to-msg">
+                    <p>To</p>
+                </div>
+            <div class="to-side">
+                <img src="https://flagsapi.com/BD/flat/64.png">
+                <select name="to" id="to">
+                </select>
+            </div>
+            </div>
+            </div>
+            <p class="msg">1 USD = 122 BDT</p>
+            <button id="button">Get Exchange Rate</button>
+    </form>
+    </div>
+    <script src="code.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
